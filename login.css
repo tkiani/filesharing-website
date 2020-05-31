@@ -1,0 +1,66 @@
+.heading{
+    background: orange;
+    position: center;
+    font-size: 30px;
+    text-align: center;
+    height: auto;
+  }
+  
+  .userName{
+    position: center;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 40px;
+    box-sizing: border-box;
+  
+  }
+  
+  .box{
+    position: center;
+    margin-left: 450px;
+    margin-top: 80px;
+    height: auto;
+    width: 40%;
+    text-align: center;
+    font-size: 25px;
+    background: orange;
+  }
+  
+  .error{
+    text-decoration: underline;
+    text-align:  center;
+    color: red;
+  }
+  
+  .main{
+    height: auto;
+    width: 40%;
+    background: orange;
+    position: center;
+    margin-top: 60px;
+    margin-left: 450px;
+    text-align: center;
+    padding: 0px;
+  }
+  
+  .createUser{
+    position: center;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 40px;
+    box-sizing: border-box;
+  }
+  
+  .box2{
+    position: center;
+    margin-left: 450px;
+    margin-top: auto;
+    height: auto;
+    width: 40%;
+    text-align: center;
+    font-size: 25px;
+    background: orange;
+  }
+  

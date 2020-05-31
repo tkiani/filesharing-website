@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<head><title>Simple File Sharing Site </title>
+
+ <link rel="stylesheet" href="login.css" /></head>
+
+<body style = "background: url(file.jpg); background-size: 100%;">
+
+	<div class="heading">
+			<h1>Eazyfileshare.com </h1>
+	</div>
+
+<div class="box">
+	<h3>Please enter Username to continue!</h3>
+</div>
+
+<div class="userName">
+
+	<form action="checkUser.php" method="GET">
+		<p>
+			<label for="userName">User Name:</label>
+			<input type="text" name="userName" id="userName" />
+		</p>
+		<p>
+			<input type="submit" value="Confirm" />
+		</p>
+	</form>
+</div>
+
+<div class="box2">
+	<h3>Create a new User here</h3>
+</div>
+
+<div class="createUser">
+
+  <form name="input" action="createUser.php" method="GET">
+
+    <p>
+      <label for="userName">New Username:</label>
+      <input type="text" name="new_user" id="new_user" />
+    </p>
+    <p>
+      <input type="submit" value="Register" />
+    </p>
+  </form>
+
+</div>
+
+</body>
+</html>
